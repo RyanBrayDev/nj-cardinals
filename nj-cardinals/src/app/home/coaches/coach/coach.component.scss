@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  flex-direction: row;
+
+  .info{
+    flex-direction: column;
+p{
+  margin: 0;
+}
+    img{
+      display: block;
+      width: 200px;
+    }
+  }
+
+  .bio{
+    margin-left: 30px;
+  }
+}

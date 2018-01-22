@@ -1,0 +1,51 @@
+@import '../../palette.scss';
+
+$nav-height: 50px;
+
+nav{
+  padding-left: $site-padding;
+  padding-right: $site-padding;
+  height: $nav-height;
+  background-color: cards-color('primary');
+  color: cards-color('foreground');
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  a{
+    text-decoration: none;
+    color: cards-color('foreground');
+  }
+
+  .title{
+    flex-shrink: 1;
+
+    span{
+      text-align: center;
+      vertical-align: middle;
+      line-height: $nav-height;
+      font-weight: bold;
+    }
+  }
+
+  .menu{
+    text-align: right;
+    flex-grow: 1;
+
+    ul{
+      list-style-type: none;
+
+      li{
+        margin-left: 25px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.active{
+  font-weight: bold;
+}
+

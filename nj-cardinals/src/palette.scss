@@ -1,0 +1,13 @@
+$site-padding: 10%;
+
+$cards-colors: (
+  'primary': #C41E3A,
+  'accent': #d98328,
+  'secondary': #5a1321,
+  'foreground': #FFFFFF,
+  'background': #FFFFFF
+);
+
+@function cards-color($key: 'primary') {
+  @return map-get($cards-colors, $key);
+}

@@ -1,3 +1,12 @@
 <div>
-  <span>{{coach.Name}}</span>
+  <div class="info">
+    <img [src]="coach.ImageUrl">
+    <p>{{coach.Name}}</p>
+    <p>{{coach.Position}}</p>
+    <p>{{coach.Email}}</p>
+    <p>{{coach.Phone}}</p>
+  </div>
+  <div class="bio">
+    <p>{{coach.Bio}}</p>
+  </div>
 </div>

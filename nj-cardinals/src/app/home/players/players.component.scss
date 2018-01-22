@@ -1,0 +1,9 @@
+@import '../../../palette.scss';
+
+div{
+  img{
+    width: 100%;
+  }
+  padding-left: $site-padding;
+  padding-right: $site-padding;
+}

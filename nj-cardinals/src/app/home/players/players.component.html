@@ -1,0 +1,21 @@
+<div>
+  <img src="./assets/images/players.jpg"/>
+  <table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Bats</th>
+      <th>Throws</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let player of players">
+      <td>{{player.Number}}</td>
+      <td>{{player.Name}}</td>
+      <td>{{player.Bats}}</td>
+      <td>{{player.Throws}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
