@@ -1,5 +1,5 @@
-export interface Sponsor{
-  Name:string;
+export interface Sponsor {
+  Name: string;
   Address: string;
   Website: string;
   Phone: string;

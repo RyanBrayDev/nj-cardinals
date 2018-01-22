@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Coach } from "../coach.model";
+import { Coach } from '../coach.model';
 
 @Component({
   selector: 'cards-coach',

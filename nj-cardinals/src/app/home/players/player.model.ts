@@ -1,4 +1,4 @@
-export interface Player{
+export interface Player {
   Name: string;
   Number: number;
   Bats: string;

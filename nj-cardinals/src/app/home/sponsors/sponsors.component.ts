@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Sponsor } from "./sponsor.model";
+import { Sponsor } from './sponsor.model';
 
 @Component({
   selector: 'cards-sponsors',
@@ -16,8 +16,8 @@ export class SponsorsComponent implements OnInit {
     this.sponsors = this.InitializeSponsors();
   }
 
-  InitializeSponsors(): Sponsor[]{
-    let sponsors: Sponsor[] = [];
+  InitializeSponsors(): Sponsor[] {
+    const sponsors: Sponsor[] = [];
     return sponsors;
   }
 

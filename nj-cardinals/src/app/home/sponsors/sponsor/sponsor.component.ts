@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Sponsor } from "../sponsor.model";
+import { Sponsor } from '../sponsor.model';
 
 @Component({
   selector: 'cards-sponsor',
