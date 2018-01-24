@@ -2,50 +2,61 @@
 
 $nav-height: 50px;
 
-nav{
-  padding-left: $site-padding;
-  padding-right: $site-padding;
+.navMenuItem {
+  text-decoration: none;
+  color: cards-color('foreground');
+  text-align: center;
+  vertical-align: middle;
+  line-height: $nav-height;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+nav {
+  width: 100%;
   height: $nav-height;
   background-color: cards-color('primary');
   color: cards-color('foreground');
-  display: flex;
-  flex-direction: row;
+
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 100%;
-  a{
-    text-decoration: none;
-    color: cards-color('foreground');
-  }
+  z-index: 100;
 
-  .title{
-    flex-shrink: 1;
+  div {
+    display: flex;
+    flex-direction: row;
 
-    span{
+    .title {
+      flex-shrink: 1;
+      text-decoration: none;
+      color: cards-color('foreground');
       text-align: center;
       vertical-align: middle;
       line-height: $nav-height;
-      font-weight: bold;
+      text-shadow: black 0.1em 0.1em 0.2em;
+      font-size: 16px;
     }
-  }
 
-  .menu{
-    text-align: right;
-    flex-grow: 1;
+    .menu {
+      text-align: right;
+      flex-grow: 1;
 
-    ul{
-      list-style-type: none;
+      ul {
+        list-style-type: none;
 
-      li{
-        margin-left: 25px;
-        display: inline-block;
+        li {
+          margin-left: 25px;
+          display: inline-block;
+        }
       }
     }
   }
 }
 
-.active{
+.active {
   font-weight: bold;
 }
 
+.navIcon{
+  height: 20px;
+}

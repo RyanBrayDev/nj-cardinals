@@ -21,7 +21,7 @@ export class CoachesComponent implements OnInit {
     coaches.push({
       Name: 'Ryan Bray',
       Position: 'Head Coach',
-      Phone: '(720) 483-0832',
+      Phone: '720-483-0832',
       Email: 'ryanbraydev@gmail.com',
       ImageUrl: '/assets/images/ryanBray.PNG',
       Bio: `Coach Ryan grew up playing baseball in Southern California and has played softball competitively for
@@ -31,16 +31,16 @@ export class CoachesComponent implements OnInit {
     coaches.push({
       Name: 'Larry Douglas',
       Position: 'Assistant Coach',
-      Phone: '',
-      Email: '',
+      Phone: '303-927-9278',
+      Email: 'larryd153@gmail.com',
       ImageUrl: '/assets/images/larryDouglas.PNG',
       Bio: `Coach Larry.`
     });
     coaches.push({
       Name: 'Mike Downing',
       Position: 'General Manager',
-      Phone: '',
-      Email: '',
+      Phone: '720-260-0771',
+      Email: 'mikedown7@comcast.net',
       ImageUrl: '/assets/images/mikeDowning.PNG',
       Bio: `Coach Downing played baseball at Regis High School and at Western State Colorado University where he
       was a three year starter at catcher. He has coached at Ralston Valley High School and has been a youth baseball

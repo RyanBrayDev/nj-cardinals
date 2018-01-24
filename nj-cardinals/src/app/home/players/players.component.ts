@@ -91,6 +91,12 @@ export class PlayersComponent implements OnInit {
       Throws: HandType.Right,
       Bats: HandType.Right
     });
+    players.push({
+      Name: 'Josh Downing',
+      Number: 7,
+      Throws: HandType.Right,
+      Bats: HandType.Right
+    });
     return players.sort((a, b) => a.Number - b.Number);
   }
 

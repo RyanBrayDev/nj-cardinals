@@ -1,3 +1,6 @@
-<div *ngFor="let coach of coaches">
-  <cards-coach [coach]="coach"></cards-coach>
+<div class="container">
+  <cards-section-heading heading="Coaches"></cards-section-heading>
+  <div *ngFor="let coach of coaches">
+    <cards-coach [coach]="coach"></cards-coach>
+  </div>
 </div>

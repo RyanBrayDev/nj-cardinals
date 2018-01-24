@@ -16,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CoachComponent } from './home/coaches/coach/coach.component';
 import { SponsorComponent } from './home/sponsors/sponsor/sponsor.component';
+import { SectionHeadingComponent } from './shared/section-heading/section-heading.component';
 
 const appRoutes: Routes = [
   { path: 'calendar', component: CalendarComponent },
@@ -44,7 +45,8 @@ const appRoutes: Routes = [
     FooterComponent,
     PageNotFoundComponent,
     CoachComponent,
-    SponsorComponent
+    SponsorComponent,
+    SectionHeadingComponent
   ],
   imports: [
     BrowserModule,
