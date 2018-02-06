@@ -1,6 +1,12 @@
 @import '../../../palette';
 
-div{
-  margin-left: $site-padding;
-  margin-right: $site-padding;
+.container {
+    margin-bottom: 100px;
+
+  p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+  }
 }

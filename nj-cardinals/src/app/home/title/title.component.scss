@@ -1,6 +1,12 @@
-p{
-  font-size: 26px;
+p {
+  font-size: 1.7em;
   text-align: center;
-  padding: 30px 15% 30px 15%;
-  line-height: 40px;
+  padding: 3% 15% 3% 15%;
+}
+
+
+@media(max-width: 500px) {
+  p {
+    font-size: 1.2em;
+  }
 }

@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -17,6 +16,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CoachComponent } from './home/coaches/coach/coach.component';
 import { SponsorComponent } from './home/sponsors/sponsor/sponsor.component';
 import { SectionHeadingComponent } from './shared/section-heading/section-heading.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   { path: 'calendar', component: CalendarComponent },
@@ -50,6 +50,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
