@@ -1,0 +1,12 @@
+p {
+  font-size: 1.7em;
+  text-align: center;
+  padding: 3% 15% 3% 15%;
+}
+
+
+@media(max-width: 500px) {
+  p {
+    font-size: 1.2em;
+  }
+}
