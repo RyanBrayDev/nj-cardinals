@@ -1,0 +1,50 @@
+div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  .info {
+    flex-direction: column;
+    flex: 1.5;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+    img {
+      display: block;
+      width: 180px;
+    }
+  }
+
+  .bio {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2em;
+  }
+
+  @media(max-width: 500px) {
+    .bio {
+      font-size: 1em;
+    }
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .email, .phone, .position {
+    font-size: .8em;
+  }
+}
+
+.coachImage {
+  margin: 0 auto;
+  max-width: 180px;
+}
+
+@media only screen and (max-width: 800px) {
+  .coachImage {
+    margin: 0 auto;
+    max-width: 120px;
+  }
+}

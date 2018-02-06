@@ -1,7 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb2943fa-d823-496c-8b4b-f080a0a4183b" name="Default" comment="" />
+    <list default="true" id="bb2943fa-d823-496c-8b4b-f080a0a4183b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/.angular-cli.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/e2e/app.e2e-spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/e2e/app.po.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/e2e/tsconfig.e2e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/protractor.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/app.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/app.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/app.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/app.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/app.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/players/HandType.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/players/player.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/page-not-found/page-not-found.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/page-not-found/page-not-found.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/page-not-found/page-not-found.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/page-not-found/page-not-found.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/scroll-direction.model.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/baseball.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/cardinals-banner-responsive.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/cardinals-banner.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/donate-blur.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/facebook-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/larry-douglas.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/mike-downing.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/players-old.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/players.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/playersORIG.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/ryan-bray.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/seats.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/8z.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/C&amp;TRoof.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/OralAndMax.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/TorresExpressLogo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/TorresLogo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/babygenes.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/bobHartAgency.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/first-choice.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/ondrish.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/pietras.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/environments/environment.prod.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/environments/environment.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/main.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/palette.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/polyfills.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/styles.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/test.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/tsconfig.app.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/tsconfig.spec.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/src/typings.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/tsconfig.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nj-cardinals/tslint.json" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,8 +129,78 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app</find>
+      <find>ms</find>
+      <find>../assets</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\rmbra\github\nj-cardinals\nj-cardinals\src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.css" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.css" />
+        <option value="$PROJECT_DIR$/nj-cardinals/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/footer/footer.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/palette.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/players/player.model.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/players/HandType.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach.model.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/tslint.json" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/index.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/scroll-direction.model.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor.model.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.ts" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.html" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/styles.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.scss" />
+        <option value="$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.scss" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -21,11 +208,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-14" />
+    <option name="width" value="1948" />
+    <option name="height" value="2074" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -35,15 +224,13 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -51,21 +238,27 @@
               <item name="nj-cardinals" type="b2602c69:ProjectViewProjectNode" />
               <item name="nj-cardinals" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nj-cardinals" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nj-cardinals" type="462c0819:PsiDirectoryNode" />
-              <item name="nj-cardinals" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rmbra\github\nj-cardinals\nj-cardinals\src" />
+      <recent name="C:\Users\rmbra\github\nj-cardinals\nj-cardinals\src\app" />
+      <recent name="C:\Users\rmbra\github\nj-cardinals\nj-cardinals\src\assets\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,6 +275,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bb2943fa-d823-496c-8b4b-f080a0a4183b" name="Default" comment="" />
@@ -89,36 +285,103 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516560223213</updated>
-      <workItem from="1516560225218" duration="16000" />
+      <workItem from="1516560225218" duration="2533000" />
+      <workItem from="1516562797370" duration="16169000" />
+      <workItem from="1516634609930" duration="8984000" />
+      <workItem from="1516802664894" duration="640000" />
+      <workItem from="1517670313603" duration="17000" />
+      <workItem from="1517671030523" duration="20983000" />
+      <workItem from="1517926490979" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16000" />
+    <option name="totallyTimeSpent" value="49382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25343552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31136364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3403409" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/.angular-cli.json" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/players/players.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor.model.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/ondrish.png" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/8z.png" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/sponsors/first-choice.png" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsor/sponsor.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/title/title.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/main.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/ryan-bray.PNG" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/mike-downing.PNG" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/facebook-icon.png" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/playersOLD.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/playersORIG.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/app.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/cardinals-banner-responsive.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/baseball.png" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/shared/section-heading/section-heading.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/cardinals-banner.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/donate-blur.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/larry-douglas.PNG" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coaches.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/coaches/coach/coach.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/players-cm.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/header/header.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/home.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/hero/hero.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/assets/images/players.jpg" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/donate/donate.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/styles.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/calendar/calendar.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.html" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/app/home/sponsors/sponsors.component.scss" />
+    <entry file="file://$PROJECT_DIR$/nj-cardinals/src/polyfills.ts" />
   </component>
 </project>

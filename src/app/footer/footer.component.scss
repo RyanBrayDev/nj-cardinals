@@ -1,0 +1,13 @@
+@import '../../palette.scss';
+
+div {
+  border-top: 1px solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  background-color: cards-color('background');
+}
