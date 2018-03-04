@@ -20,8 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   { path: 'calendar', component: CalendarComponent },
-  { path: 'donate',      component: DonateComponent },
-  { path: 'home',      component: HomeComponent },
+  { path: 'donate', component: DonateComponent },
+  { path: 'home', component: HomeComponent },
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'

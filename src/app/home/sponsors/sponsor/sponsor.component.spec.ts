@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SponsorComponent } from './sponsor.component';
+import { Coach } from "../../coaches/coach.model";
+import { Sponsor } from "../sponsor.model";
 
 describe('SponsorComponent', () => {
   let component: SponsorComponent;
@@ -8,14 +10,22 @@ describe('SponsorComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SponsorComponent ]
+      declarations: [SponsorComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(SponsorComponent);
     component = fixture.componentInstance;
+    const sponsor: Sponsor = {
+      Name: "",
+      Address: "",
+      Website: "",
+      Phone: "",
+      ImageUrl: "",
+    }
+    component.sponsor = sponsor;
     fixture.detectChanges();
   });
 

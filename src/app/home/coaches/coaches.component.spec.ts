@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CoachesComponent } from './coaches.component';
+import { SectionHeadingComponent } from "../../shared/section-heading/section-heading.component";
+import { CoachComponent } from "./coach/coach.component";
 
 describe('CoachesComponent', () => {
   let component: CoachesComponent;
@@ -8,7 +10,11 @@ describe('CoachesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CoachesComponent ]
+      declarations: [
+        CoachesComponent,
+        CoachComponent,
+        SectionHeadingComponent
+      ]
     })
     .compileComponents();
   }));

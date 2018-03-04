@@ -34,9 +34,9 @@ export class CoachesComponent implements OnInit {
       Phone: '303-927-9278',
       Email: 'larryd153@gmail.com',
       ImageUrl: '../../../assets/images/larry-douglas.PNG',
-      Bio: `Larry grew up playing tournament baseball in the Denver area.  He continued to play through high school 
-      finishing up with a brief stint with the Cleveland Indians.  He has stayed active in baseball through adult 
-      baseball and softball leagues and has coached youth baseball for 5 years.  His family includes wife Kaylie 
+      Bio: `Larry grew up playing tournament baseball in the Denver area.  He continued to play through high school
+      finishing up with a brief stint with the Cleveland Indians.  He has stayed active in baseball through adult
+      baseball and softball leagues and has coached youth baseball for 5 years.  His family includes wife Kaylie
       and sons Kai (12) and Gage (2).`
     });
     coaches.push({
