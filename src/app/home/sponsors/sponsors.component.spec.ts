@@ -1,8 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SponsorsComponent } from './sponsors.component';
-import { SectionHeadingComponent } from "../../shared/section-heading/section-heading.component";
-import { SponsorComponent } from "./sponsor/sponsor.component";
+import { SectionHeadingComponent } from '../../shared/section-heading/section-heading.component';
+import { SponsorComponent } from './sponsor/sponsor.component';
 
 describe('SponsorsComponent', () => {
   let component: SponsorsComponent;

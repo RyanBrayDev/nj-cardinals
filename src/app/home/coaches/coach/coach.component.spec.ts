@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CoachComponent } from './coach.component';
-import { Coach } from "../coach.model";
+import { Coach } from '../coach.model';
 
 describe('CoachComponent', () => {
   let component: CoachComponent;
@@ -18,13 +18,13 @@ describe('CoachComponent', () => {
     fixture = TestBed.createComponent(CoachComponent);
     component = fixture.componentInstance;
     const coach: Coach = {
-      Name: "",
-      Email: "",
-      Position: "",
-      Bio: "",
-      ImageUrl: "",
-      Phone: "",
-    }
+      Name: '',
+      Email: '',
+      Position: '',
+      Bio: '',
+      ImageUrl: '',
+      Phone: '',
+    };
     component.coach = coach;
     fixture.detectChanges();
   });
