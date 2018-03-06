@@ -1,12 +1,17 @@
 
-div{
-  text-align: center;
-  margin-bottom: 50px;
+@import '../../../../palette.scss';
 
-  img{
-    height: 125px;
-  }
-  span{
-    display: block;
-  }
+a {
+  text-decoration: none;
+  color: #333;
 }
+
+img {
+  height: 125px;
+  margin-bottom: 10px;
+}
+
+span {
+  display: block;
+}
+
