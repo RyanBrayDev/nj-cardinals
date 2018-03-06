@@ -2,7 +2,9 @@
   <cards-section-heading heading="Sponsors"></cards-section-heading>
   <p>Please support our sponsors! Our sponsors are helping our team reach our goal of travelling to Cooperstown for
     the 12U Hall of Fame tournament. Please show them your thanks by supporting their business</p>
-  <div *ngFor="let sponsor of sponsors">
-    <cards-sponsor [sponsor]="sponsor"></cards-sponsor>
+  <div class="flex-container">
+    <div *ngFor="let sponsor of sponsors">
+      <cards-sponsor [sponsor]="sponsor"></cards-sponsor>
+    </div>
   </div>
 </div>
