@@ -5,7 +5,7 @@ $cards-colors: (
   'accent': #d98328,
   'secondary': #5a1321,
   'foreground': #FFFFFF,
-  'background': #FFFFFF
+  'background': #F8F8F8
 );
 
 @function cards-color($key: 'primary') {

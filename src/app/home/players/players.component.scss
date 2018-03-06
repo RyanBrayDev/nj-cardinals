@@ -1,9 +1,18 @@
 @import '../../../palette.scss';
 
-div{
-  img{
+div {
+  img {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  table {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .grow {
+      width: 100%;
+    }
   }
 }
 
