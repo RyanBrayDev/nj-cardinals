@@ -1,61 +1,56 @@
-@media(max-width: 500px) {
-  div {
-    //flex-direction: column;
-  }
-}
-
-div {
+#coach {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 20px;
+  border: darkgray .5px solid;
+  box-shadow: 1px 1px 3px darkgray;
+  background: white;
+  padding: 20px;
 
-  @media(max-width: 500px) {
-    flex-direction: column;
+  @media(min-width: 800px) {
+    flex-direction: row;
   }
 
   .info {
     flex-direction: column;
-    flex: 1.5;
     text-align: center;
-    p {
-      margin: 0;
+    line-height: .5em;
+    .name {
+      font-weight: bold;
     }
-    img {
-      display: block;
-      width: 180px;
-    }
-  }
 
-  @media(max-width: 500px) {
-    .bio {
-      font-size: 1em;
-      //display: inline-block;
+    .email, .phone, .position {
+      font-size: .8em;
+    }
+
+    .coachImage {
+      margin: 10px;
+      max-width: 180px;
+      border: darkgray 1px solid;
+      box-shadow: 3px 3px 5px darkgray;
+    }
+
+
+    @media only screen and (max-width: 500px) {
+      .coachImage {
+        max-width: 120px;
+      }
     }
   }
 
   .bio {
+    margin-top: 10px;
     margin-left: 8%;
     font-size: 1.2em;
     display: block;
   }
 
-  .name {
-    font-weight: bold;
-  }
-
-  .email, .phone, .position {
-    font-size: .8em;
-  }
-}
-
-.coachImage {
-  margin: 0 auto;
-  max-width: 180px;
-}
-
-@media only screen and (max-width: 800px) {
-  .coachImage {
-    margin: 0 auto;
-    max-width: 120px;
+  @media(max-width: 800px) {
+    .bio {
+      font-size: 1em;
+      text-align: center;
+    }
   }
 }
+
+

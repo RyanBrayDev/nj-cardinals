@@ -1,28 +1,3 @@
-//div {
-//  background: url('../../../assets/images/cardinals-banner-responsive.jpg') no-repeat fixed center center;
-//  background-size: cover;
-//  background: transparent;
-//  height: 100vh;
-//}
-
-//div::before {
-//  content: ' ';
-//  display: block;
-//  background-image: url('../../../assets/images/cardinals-banner.jpg');
-//  background-position: center;
-//  background-size: cover;
-//  height: 100vh;
-//  width: 100vw;
-//  top: 0;
-//  bottom: 0;
-//  left: 0;
-//  right: 0;
-//  position: fixed;
-//  z-index: -10; // This is pretty important.
-//}
-
-
-
 div:before {
   content: "";
   display: block;
