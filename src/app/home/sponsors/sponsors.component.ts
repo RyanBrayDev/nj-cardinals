@@ -54,11 +54,25 @@ export class SponsorsComponent implements OnInit {
       Name: 'All Tech Electric',
       Website: 'www.all-techelectric.net',
       Address: '10805 W 44th Ave,  Wheat Ridge',
-      Phone: '-303-456-8416',
+      Phone: '303-456-8416',
       ImageUrl: '../../../../assets/images/sponsors/alltech.png'
     });
 
+    sponsors.push({
+      Name: 'Aspen Gold Insurance Brokers',
+      Website: 'www.aspengoldins.com',
+      Address: '8671 Wolff Court, Suite 240, Westminster',
+      Phone: '720-600-7470',
+      ImageUrl: '../../../../assets/images/sponsors/aspen-gold.png'
+    });
 
+    sponsors.push({
+      Name: 'Aaark Total Home Services',
+      Website: 'www.aaarkhomerepair.com',
+      Address: '5050 Fox Street, Suite A, Denver',
+      Phone: '303-431-8015',
+      ImageUrl: '../../../../assets/images/sponsors/aaark.jpg'
+    });
     return sponsors;
   }
 
