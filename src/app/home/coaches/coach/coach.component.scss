@@ -1,7 +1,17 @@
+@media(max-width: 500px) {
+  div {
+    //flex-direction: column;
+  }
+}
+
 div {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+
+  @media(max-width: 500px) {
+    flex-direction: column;
+  }
 
   .info {
     flex-direction: column;
@@ -16,15 +26,17 @@ div {
     }
   }
 
-  .bio {
-    margin-left: 8%;
-    font-size: 1.2em;
-  }
-
   @media(max-width: 500px) {
     .bio {
       font-size: 1em;
+      //display: inline-block;
     }
+  }
+
+  .bio {
+    margin-left: 8%;
+    font-size: 1.2em;
+    display: block;
   }
 
   .name {

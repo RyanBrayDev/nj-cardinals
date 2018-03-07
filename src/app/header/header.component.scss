@@ -2,14 +2,6 @@
 
 $nav-height: 50px;
 
-.navMenuItem {
-  text-decoration: none;
-  color: cards-color('foreground');
-  text-align: center;
-  vertical-align: middle;
-  line-height: $nav-height;
-  text-shadow: black 0.1em 0.1em 0.2em;
-}
 
 #nav-bar {
   width: 100%;
@@ -20,6 +12,8 @@ $nav-height: 50px;
   top: 0;
   overflow: hidden;
   z-index: 100;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .flex-container {
@@ -31,7 +25,6 @@ $nav-height: 50px;
     flex-shrink: 1;
     text-decoration: none;
     color: cards-color('foreground');
-    text-align: center;
     vertical-align: middle;
     line-height: $nav-height;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -55,6 +48,16 @@ $nav-height: 50px;
     }
   }
 }
+
+.navMenuItem {
+  text-decoration: none;
+  color: cards-color('foreground');
+  text-align: center;
+  vertical-align: middle;
+  line-height: $nav-height;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 
 .active {
   font-weight: bold;
