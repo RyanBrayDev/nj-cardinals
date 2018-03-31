@@ -73,6 +73,14 @@ export class SponsorsComponent implements OnInit {
       Phone: '303-431-8015',
       ImageUrl: '../../../../assets/images/sponsors/aaark.jpg'
     });
+
+    sponsors.push({
+      Name: 'City Wide ChemDry',
+      Website: 'www.allcitywidecarpets.com',
+      Address: '',
+      Phone: '303-425-0566',
+      ImageUrl: '../../../../assets/images/sponsors/chemdry.png'
+    });
     return sponsors;
   }
 
