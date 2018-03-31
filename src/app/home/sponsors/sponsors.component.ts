@@ -29,7 +29,7 @@ export class SponsorsComponent implements OnInit {
     sponsors.push({
       Name: 'Tammmy Bray',
       Address: '7878 W. 80th Pl Unit 2C, Arvada',
-      Website: 'www.8z.com',
+      Website: 'www.tammybray.com',
       Phone: '303-898-7494',
       ImageUrl: '../../../../assets/images/sponsors/8z.png',
     });
@@ -44,7 +44,7 @@ export class SponsorsComponent implements OnInit {
 
     sponsors.push({
       Name: 'Nourish and Flourish',
-      Website: 'http://www.nourishnf.com/',
+      Website: 'www.nourishnf.com',
       Address: 'Arvada, CO',
       Phone: '720-244-3606',
       ImageUrl: '../../../../assets/images/sponsors/nourish.png'
